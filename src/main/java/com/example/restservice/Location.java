@@ -1,7 +1,5 @@
 package com.example.restservice;
 
-import java.util.List;
-
 public class Location {
 	private float lat;
 	private float lon;

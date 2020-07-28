@@ -7,21 +7,15 @@ public class WeatherEntry {
 	private Integer id;
 	private String date;
 	private Location location;              
-	private List<Float> temperature;            //  List
+	private List<Float> temperature;           
 	
-
 	public WeatherEntry() {}
 	
 	public WeatherEntry(int id, String date) {
 		this.id = id;
 		this.date = date;		
-	}
-	
-	public WeatherEntry(WeatherEntry weatherEntry) {
-		this.id = weatherEntry.getId();
-		this.date = weatherEntry.getDate();
-		this.location = weatherEntry.getLocation();
-		this.temperature = weatherEntry.getTemperature();
+		this.location = null;
+		this.temperature=null;
 	}
 	
 	public WeatherEntry(int id, String date, 
