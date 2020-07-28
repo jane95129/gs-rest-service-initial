@@ -4,7 +4,7 @@ public class Location {
 	private float lat;
 	private float lon;
 	private String city;              
-	private String state;            //  enum
+	private String state;          
 	
 	public Location () {}
 	
