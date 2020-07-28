@@ -10,11 +10,11 @@ public class Location {
 	
 	public Location () {}
 	
-	public Location (Location location) {
-		this.lat = location.getLat();
-		this.lon = location.getLon();
-		this.city = location.getCity();
-		this.state = location.getState();
+	public Location (float location_lat, float location_lon, String location_city, String location_state) {
+		this.lat = location_lat;
+		this.lon = location_lon;
+		this.city = location_city;
+		this.state = location_state;
 	}
 	
 	public float getLat() {
